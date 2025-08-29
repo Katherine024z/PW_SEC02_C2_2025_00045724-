@@ -1,0 +1,76 @@
+/* Estilo general */
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para Header */
+.header {
+  background: #4CAF50;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: start;
+}
+
+/*Estilo para h1*/
+.header h1 {
+  margin: 1;
+  font-size: 2.0rem;
+}
+
+/*Estilo para los botones*/
+.botones {
+  margin-top: 20px;
+}
+
+.botones button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: line style;
+  background: #3e3e3e;
+  color: white;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.botones button:hover {
+  background: #c14a4a;
+}
+
+/* Estilo para el contenido */
+.contenido {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/*Estilo para ciudad*/
+.ciudad {
+  width: 30%;
+}
+
+/*Estilo para nombres de las ciudades*/
+.ciudad h2 {
+  font-family: cursive;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Estilo para Footer */
+.footer {
+  background: dodgerblue;
+  color: white;
+  padding: 10px;
+  text-align: start;
+}
+
+/*Estilo para la imagen en el footer*/
+.footer img {
+  margin-top: 20px;
+  max-width: 350px;
+  border-radius: 20px;
+  /*Para centrar imagen*/
+  display: block;
+  margin: 0 auto;
+}
